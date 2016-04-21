@@ -1,0 +1,66 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		"target",
+		".git",
+		".hg",
+		"coverage",
+		"node_modules",
+		"checkout-ui/dist/compiled",
+		"checkout-ui/dist/html",
+		"app/dist",
+		"cap/bin/html",
+		"cap/bin",
+		"marionette-ose/dist",
+		"marionette-ose/bower_components",
+		"cap/var/publish",
+		"CVS",
+		".sass-cache",
+		".tmp",
+		".grunt",
+		"client/bower_components",
+		"client/coverage"
+	],
+	"font_size": 13.0,
+	"ignored_packages":
+	[
+		"JsFormat",
+		"Vintage",
+		"ZenCoding"
+	],
+	"rulers":
+	[
+		200
+	],
+	"save_on_focus_lost": false,
+	"scroll_past_end": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

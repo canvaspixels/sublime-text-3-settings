@@ -1,0 +1,69 @@
+[
+    {
+      "keys": ["tab"],
+      "command": "expand_abbreviation_by_tab",
+
+      // put comma-separated syntax selectors for which
+      // you want to expandEmmet abbreviations into "operand" key
+      // instead of SCOPE_SELECTOR.
+      // Examples: source.js, text.html - source
+      "context": [
+        {
+          "operand": "source.js, text.html",
+          "operator": "equal",
+          "match_all": true,
+          "key": "selector"
+        },
+
+        // run only if there's no selected text
+        {
+          "match_all": true,
+          "key": "selection_empty"
+        },
+
+        // don't work if there are active tabstops
+        {
+          "operator": "equal",
+          "operand": false,
+          "match_all": true,
+          "key": "has_next_field"
+        },
+
+        // don't work if completion popup is visible and you
+        // want to insert completion with Tab. If you want to
+        // expand Emmet with Tab even if popup is visible --
+        // remove this section
+        {
+          "operand": false,
+          "operator": "equal",
+          "match_all": true,
+          "key": "auto_complete_visible"
+        },
+        {
+          "match_all": true,
+          "key": "is_abbreviation"
+        }
+      ]
+    },
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+d"], "command": "file_diff_menu"},
+    { "keys": ["super+ctrl+down"], "command": "duplicate_line" },
+    { "keys": ["super+up"], "command": "swap_line_up" },
+    { "keys": ["super+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "brackets"} },
+    { "keys": ["super+b"], "command": "goto_python_definition" },
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+    { "keys": ["ctrl+alt+t"], "command": "html_tidy"},
+    { "keys": ["super+alt+r"], "command": "refresh_folder_list"},
+    { "keys": ["super+alt+p"], "command": "htmlprettify"},
+    { "keys": ["super+c"], "command": "noop" },
+    { "keys": ["super+c"], "command": "copy", "context":
+    [
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+    },
+    { "keys": ["super+k", "super+t"], "command": "title_case" },
+    {"keys": ["ctrl+k", "ctrl+n"], "command": "toggle_setting", "args": {"setting": "line_numbers"} }
+
+
+]
