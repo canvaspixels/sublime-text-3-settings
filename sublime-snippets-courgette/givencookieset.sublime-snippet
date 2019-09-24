@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:Given} the cookie '${2:COOKIE_NAME}' is set
+]]></content>
+  <tabTrigger>givencookieset</tabTrigger>
+</snippet>

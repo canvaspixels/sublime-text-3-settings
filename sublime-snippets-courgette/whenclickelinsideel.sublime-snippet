@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:When} I click the '${2:LOCATOR}' inside the '${3:LOCATOR}'
+]]></content>
+  <tabTrigger>whenclickelinsideel</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:When} I append '${2:STRING}' to '${3:LOCATOR}'
+]]></content>
+  <tabTrigger>whenappend</tabTrigger>
+</snippet>

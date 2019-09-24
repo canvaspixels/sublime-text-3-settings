@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:Then} I expect the '${2:LOCATOR}' to have the class '${3:CLASS_NAME}'
+]]></content>
+  <tabTrigger>thenclassname</tabTrigger>
+</snippet>

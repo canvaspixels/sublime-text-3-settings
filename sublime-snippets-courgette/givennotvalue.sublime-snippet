@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:Given} the value of the '${2:LOCATOR}' is not '${3:VALUE}'
+]]></content>
+  <tabTrigger>givennotvalue</tabTrigger>
+</snippet>

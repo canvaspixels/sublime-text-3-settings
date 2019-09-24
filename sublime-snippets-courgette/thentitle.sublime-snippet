@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:Then} I expect the title to be '${2:STRING}'
+]]></content>
+  <tabTrigger>thentitle</tabTrigger>
+</snippet>

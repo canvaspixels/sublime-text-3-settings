@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[function createComponent(options = {}) {
+  return (
+    <Room
+      room={options.room || Immutable.Map()}
+      index={options.index || 0}
+      roomsCount={options.roomsCount || 1}
+      onPageChange={options.onPageChange || sinon.stub()}
+      onRemoveRoom={options.onRemoveRoom || onRemoveRoom}
+      parentPath={options.parentPath || '/'}
+      onSearchUnit={options.onSearchUnit || false}
+    />
+  );
+}]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

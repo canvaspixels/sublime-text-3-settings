@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:When} I press '${2:KEY}'
+]]></content>
+  <tabTrigger>whenkey</tabTrigger>
+</snippet>

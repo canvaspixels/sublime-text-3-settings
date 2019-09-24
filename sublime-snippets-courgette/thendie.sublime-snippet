@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+${1:Then} fail step and take screenshot
+]]></content>
+  <tabTrigger>thendie</tabTrigger>
+</snippet>
