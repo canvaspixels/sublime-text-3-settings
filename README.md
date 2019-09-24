@@ -1,7 +1,7 @@
 sublime-settings
 ================
 
-All my sublime text 2 settings
+All my sublime text 3 settings
 
 To install my settings (in mac) go to the Sublime Text Packages folder in terminal and move your User folder out the way.
 
@@ -10,7 +10,7 @@ To install my settings (in mac) go to the Sublime Text Packages folder in termin
 
 Then clone this repo:
 
-    git clone https://github.com/canvaspixels/sublime-settings.git User
+    git clone https://github.com/canvaspixels/sublime-text-3-settings.git User
 
 Note that you may need to copy some of the existing files from UserOld to User:
 
